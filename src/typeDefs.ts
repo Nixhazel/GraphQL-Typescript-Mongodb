@@ -2,6 +2,7 @@ import { gql } from "apollo-server";
 
 export const typeDefs = gql`
 	type Book {
+        _id: String
 		title: String
 		author: String
 		pages: Int
