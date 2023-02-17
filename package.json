@@ -2,8 +2,9 @@
   "name": "GraphQL",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon dist/app.js",
+    "start": "nodemon --experimental-specifier-resolution=node dist/app.js",
     "dev": "tsc -w"
   },
   "license": "MIT",

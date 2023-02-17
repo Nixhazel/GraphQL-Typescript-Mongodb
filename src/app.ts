@@ -42,7 +42,7 @@ mongoose
 
 
   // mongoose.connect(
-// 	"mongodb+srv://Olokor:Nyeore14@cluster1.s2bbhxg.mongodb.net/Week-9-Week-6-BookLibDB"
+// 	"mongodb+srv://Olokor:Nyeore14@cluster1.s2bbhxg.mongodb.net/GraphQL-Practice"
 // );
 // const connection = mongoose.connection;
 // connection.on("connected", () => {
