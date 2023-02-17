@@ -29,7 +29,7 @@ const server = new ApolloServer({
 
 mongoose
 	.connect(
-		"mongodb+srv://Olokor:Nyeore14@cluster1.s2bbhxg.mongodb.net/Week-9-Week-6-BookLibDB"
+		"mongodb+srv://Olokor:Nyeore14@cluster1.s2bbhxg.mongodb.net/GraphQL-Practice"
 	)
 	.then(() => {
 		console.log("MongoDB connection Successful");
@@ -37,7 +37,7 @@ mongoose
 	})
 	.then((res) => {
 		console.log("🚀 Server Running on :", res.port);
-  });
+	});
   
 
 

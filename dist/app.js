@@ -23,7 +23,7 @@ var server = new apollo_server_1.ApolloServer({
     resolvers: resolver_1.resolvers,
 });
 mongoose_1.default
-    .connect("mongodb+srv://Olokor:Nyeore14@cluster1.s2bbhxg.mongodb.net/Week-9-Week-6-BookLibDB")
+    .connect("mongodb+srv://Olokor:Nyeore14@cluster1.s2bbhxg.mongodb.net/GraphQL-Practice")
     .then(function () {
     console.log("MongoDB connection Successful");
     return server.listen({ port: 4000 });
