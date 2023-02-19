@@ -8,8 +8,10 @@ export const typeDefs = gql`
 		pages: Int
 	}
 
-	type user {
-		id: String
+	type User {
+        emai: String
+        name: String
+        token: String
 	}
 
 	type Query {
@@ -18,6 +20,7 @@ export const typeDefs = gql`
 	}
 
 	type Mutation {
-		createBook(title: String!, author: String! pages: Int): Book
+		createBook(title: String!, pages: Int): Book
+        createUser(emai: String, name: String ): User
 	}
 `;
