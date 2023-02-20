@@ -42,7 +42,7 @@ const { url } = await startStandaloneServer(server, {
         const token = req.headers.authorization || '';
         if (token) {
             const user = await getuser(token);
-            return user;
+            return { user };
         }
     }
 });

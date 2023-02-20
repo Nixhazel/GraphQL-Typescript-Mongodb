@@ -60,7 +60,7 @@ const { url } = await startStandaloneServer(server, {
 
     if (token) {
       const user = await getuser(token)
-      return user
+      return {user}
     }
   }
 });
